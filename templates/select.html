@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resurrect | Select an interviewee</title>
+    </head>
+    <body>
+        <h1>Resurrect</h1>
+        <p style="font-style: italic;">Interview historical figures</p>
+        <hr>
+        <form action="{{url_for("index")}}" method="GET">
+            <div>
+                <label>Interviewee:</label>
+                <select name="interviewee">
+                    <option value="albert einstein">Albert Einstein, 1879 - 1955</option>
+                    <option value="bernhard riemann">Bernhard Riemann, 1826 - 1866</option>
+                    <option value="isaac newton">Sir Isaac Newton, 1643 - 1727</option>
+                </select>
+            </div>
+            <div><button type="submit">Begin the interview</button></div>
+        </form>
+    </body>
+</html>
