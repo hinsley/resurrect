@@ -23,7 +23,7 @@ def index():
             # The interview has already begun.
             if "summarize" in request.form:
                 # No message was sent -- this is just a request to summarize the existing transcript.
-                content = gpt3.new_transcript(request.form["interviewee"]) + "\n\n" + gpt3.summarize(content) + "\n\nInterviewer: "
+                content = gpt3.summarize(content) + "\n\nInterviewer: "
             else:
                 # A new message was sent.
                 content += request.form["message"]
