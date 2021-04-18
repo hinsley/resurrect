@@ -23,7 +23,7 @@ def index():
         if "content" not in request.cookies or "message" not in request.form:
             # We're just starting the interview. The check for "message" in POST data
             # is crucial in case the "content" cookie was present by accident.
-            content = f"The following is an excerpt of a transcript from an informal interview with {request.form['interviewee']}.\n\nInterviewer: "
+            content = gpt3.new_transcript(request.form["interviewee"])
         else:
             content = request.cookies.get("content")
             # The interview has already begun.
