@@ -35,6 +35,7 @@ def index():
                 content += request.form["message"]
                 content = gpt3.query(content, request.form["interviewee"])
         
+        print(content)
         response.set_cookie("content", content)
 
         response.set_data(render_template("index.html", content=content))

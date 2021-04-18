@@ -18,13 +18,11 @@
         {% if "summarize" in request.form: %}
         <h3>The following should be a summary, but this feature has not yet been implemented.</h3>
         {% endif %}
-        <div id="transcript" class="multiline">
-            {{ content }}
-        </div>
+        <div id="transcript" class="multiline">{{ content }}</div>
         <div id="control">
             <form action="{{url_for("index")}}" method="POST">
                 <input type="hidden" name="interviewee" value="{{request.form["interviewee"]}}">
-                <input type="text" name="message">
+                <input type="text" name="message" autocomplete="off">
                 <input type="submit">
                 <button type="submit" name="summarize">Summarize</button>
             </form>
