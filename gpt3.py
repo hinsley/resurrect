@@ -27,7 +27,7 @@ def new_transcript(interviewee: str) -> str:
     Generates a fresh transcript.
     """
 
-    return f"The following is an excerpt of a transcript from an informal interview with {interviewees[interviewee]["title"]}.\n\nInterviewer: "
+    return f"The following is an excerpt of a transcript from an informal interview with {interviewees[interviewee]['title']}.\n\nInterviewer: "
 
 parameters = {
     "engine": "davinci",
