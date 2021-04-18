@@ -4,11 +4,12 @@
         <title>Resurrect | Interview with {{request.form["interviewee"]}}</title>
         <style>
             body {
-                font-family: sans-serif;
+                font-family: serif;
             }
 
-            .multiline {
+            #transcript {
                 white-space: pre-wrap;
+                margin: 32px;
             }
         </style>
     </head>
@@ -18,7 +19,7 @@
         {% if "summarize" in request.form: %}
         <h3>The following should be a summary, but this feature has not yet been implemented.</h3>
         {% endif %}
-        <div id="transcript" class="multiline">{{ content }}</div>
+        <div id="transcript">{{ content }}</div>
         <div id="control">
             <form action="{{url_for("index")}}" method="POST">
                 <input type="hidden" name="interviewee" value="{{request.form["interviewee"]}}">
