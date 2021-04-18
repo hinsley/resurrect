@@ -5,7 +5,7 @@
 import openai
 
 with open("openai-api-key.txt") as f:
-    openai.api_key = f.read()
+    openai.api_key = f.read().strip()
 
 interviewees = {
     "Sun Tzu": {
