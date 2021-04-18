@@ -4,15 +4,9 @@ import gpt3
 
 app = Flask(__name__)
 
-interviewees = {
-    "Albert Einstein",
-    "Bernhard Riemann",
-    "Isaac Newton",
-}
-
 @app.route("/", methods=["POST"])
 def index():
-    if "interviewee" not in request.form or request.form["interviewee"] not in interviewees:
+    if "interviewee" not in request.form or request.form["interviewee"] not in gpt3.interviewees:
         # No interviewee was supplied. Who are we interviewing?
         # Warning: This logic is totally broken/untested. Don't rely on it.
         print(url_for("select"))
