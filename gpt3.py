@@ -8,6 +8,14 @@ with open("openai-api-key.txt") as f:
     openai.api_key = f.read()
 
 interviewees = {
+    "Sun Tzu": {
+        "title": "Sun Tzu",
+        "nominal": "Tzu",
+    },
+    "Confucius": {
+        "title": "Confucius",
+        "nominal": "Confucius",
+    },
     "Socrates": {
         "title": "Socrates",
         "nominal": "Socrates",
@@ -24,6 +32,42 @@ interviewees = {
         "title": "Aristotle",
         "nominal": "Aristotle",
     },
+    "Epicurus": {
+        "title": "Epicurus",
+        "nominal": "Epicurus",
+    },
+    "Julius Caesar": {
+        "title": "Julius Caesar",
+        "nominal": "Julius",
+    },
+    "Augustus Caesar": {
+        "title": "Augustus Caesar",
+        "nominal": "Augustus",
+    },
+    "Lucius Seneca": {
+        "title": "Lucius Annaeus Seneca the Younger",
+        "nominal": "Seneca",
+    },
+    "Claudius Ptolemy": {
+        "title": "Claudius Ptolemy",
+        "nominal": "Ptolemy",
+    },
+    "Marcus Aurelius": {
+        "title": "Marcus Aurelius Antoninus",
+        "nominal": "Aurelius",
+    },
+    "Leonardo da Vinci": {
+        "title": "Leonardo da Vinci",
+        "nominal": "da Vinci",
+    },
+    "Nicolaus Copernicus": {
+        "title": "Nicolaus Copernicus",
+        "nominal": "Copernicus",
+    },
+    "Johannes Kepler": {
+        "title": "Johannes Kepler",
+        "nominal": "Kepler",
+    },
     "Galileo Galilei": {
         "title": "Galileo di Vincenzo Bonaiuti de' Galilei",
         "nominal": "Galileo",
@@ -36,13 +80,29 @@ interviewees = {
         "title": "Sir Isaac Newton",
         "nominal": "Newton",
     },
+    "Johann Sebastian Bach": {
+        "title": "Johann Sebastian Bach",
+        "nominal": "Bach",
+    },
     "Leonhard Euler": {
         "title": "Leonhard Euler",
         "nominal": "Euler",
     },
+    "Benjamin Franklin": {
+        "title": "Benjamin Franklin",
+        "nominal": "Franklin",
+    },
     "George Washington": {
         "title": "George Washington",
         "nominal": "Washington",
+    },
+    "Immanuel Kant": {
+        "title": "Immanuel Kant",
+        "nominal": "Kant",
+    },
+    "Joseph-Louis Lagrange": {
+        "title": "Joseph-Louis Lagrange",
+        "nominal": "Lagrange",
     },
     "Napoleon Bonaparte": {
         "title": "Napoléon Bonaparte",
@@ -52,6 +112,14 @@ interviewees = {
         "title": "Johann Carl Friedrich Gauss",
         "nominal": "Gauss",
     },
+    "Soren Kierkegaard": {
+        "title": "Søren Aabye Kierkegaard",
+        "nominal": "Kierkegaard",
+    },
+    "Augustin-Louis Cauchy": {
+        "title": "Baron Augustin-Louis Cauchy",
+        "nominal": "Cauchy",
+    },
     "Abraham Lincoln": {
         "title": "Abraham Lincoln",
         "nominal": "Lincoln",
@@ -60,21 +128,53 @@ interviewees = {
         "title": "Bernhard Riemann",
         "nominal": "Riemann",
     },
+    "Louis Pasteur": {
+        "title": "Louis Pasteur",
+        "nominal": "Pasteur",
+    },
+    "Friedrich Nietzsche": {
+        "title": "Friedrich Wilhelm Nietzsche",
+        "nominal": "Nietzsche",
+    },
     "Thomas Edison": {
         "title": "Thomas Alva Edison",
         "nominal": "Edison",
+    },
+    "Marie Curie": {
+        "title": "Marie Skłodowska Curie",
+        "nominal": "Curie",
     },
     "Nikola Tesla": {
         "title": "Nikola Tesla",
         "nominal": "Tesla",
     },
+    "Mahatma Gandhi": {
+        "title": "Mahātmā Mohandas Karamchand Gandhi",
+        "nominal": "Gandhi",
+    },
     "Albert Einstein": {
         "title": "Albert Einstein",
         "nominal": "Einstein",
     },
+    "Erwin Schrodinger": {
+        "title": "Erwin Rudolf Josef Alexander Schrödinger",
+        "nominal": "Schrödinger",
+    },
+    "Robert Oppenheimer": {
+        "title": "J. Robert Oppenheimer",
+        "nominal": "Oppenheimer",
+    },
     "Richard Feynman": {
         "title": "Richard Phillips Feynman",
         "nominal": "Feynman",
+    },
+    "Linus Pauling": {
+        "title": "Linus Carl Pauling",
+        "nominal": "Pauling",
+    },
+    "Paul Erdos": {
+        "title": "Paul Erdős",
+        "nominal": "Erdős",
     },
     "Stephen Hawking": {
         "title": "Stephen William Hawking",
