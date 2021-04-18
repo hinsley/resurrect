@@ -1,9 +1,29 @@
 <!doctype html>
 <html>
     <head>
-        <title>Resurrect | Interview with {{request.args["interviewee"].title()}}</title>
+        <title>Resurrect | Interview with {{request.form["interviewee"]}}</title>
+        <style>
+            .multiline {
+                white-space: pre-wrap;
+            }
+        </style>
     </head>
     <body>
-        <h1>Hold tight! We're still building.</h1>
+        <h1>Resurrect</h1>
+        <hr>
+        {% if "summarize" in request.form: %}
+        <h3>The following should be a summary, but this feature has not yet been implemented.</h3>
+        {% endif %}
+        <div id="transcript" class="multiline">
+            {{ content }}
+        </div>
+        <div id="control">
+            <form action="{{url_for("index")}}" method="POST">
+                <input type="hidden" name="interviewee" value="{{request.form["interviewee"]}}">
+                <input type="text" name="message">
+                <input type="submit">
+                <button type="submit" name="summarize">Summarize</button>
+            </form>
+        </div>
     </body>
 </html>
