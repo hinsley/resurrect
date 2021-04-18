@@ -59,9 +59,9 @@ def new_transcript(interviewee: str) -> str:
 
 parameters = {
     "engine": "davinci",
-    "frequency_penalty": 0.1,
+    "frequency_penalty": 0.2,
     "max_tokens": 200,
-    "temperature": 0.5,
+    "temperature": 0.75,
     "stop": "Interviewer:",
 }
 
