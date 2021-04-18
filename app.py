@@ -1,5 +1,7 @@
 from flask import Flask, make_response, redirect, render_template, request, url_for
 
+import gpt3
+
 app = Flask(__name__)
 
 interviewees = {
@@ -30,7 +32,8 @@ def index():
                 pass
             else:
                 # A new message was sent.
-                content += request.form["message"] + "\n\nInterviewer: "
+                content += request.form["message"]
+                content = gpt3.query(content, request.form["interviewee"])
         
         response.set_cookie("content", content)
 

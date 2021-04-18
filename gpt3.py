@@ -30,10 +30,14 @@ parameters = {
     "stop": "Interviewer:",
 }
 
-def query(context: str, interviewee: str, message: str) -> str:
-    # Append the supplied message as well as the nominal prompt for the
-    # interviewee.
-    context += f"{message}\n\n{interviewees[interviewee]['nominal']}:"
+def query(context: str, interviewee: str) -> str:
+    """
+    Takes an interview transcript as context and appends the interviewee nominal prompt
+    before submitting a completion query to GPT-3. Returns the entire transcript, so
+    no further concatenation is required.
+    """
+    # Append the nominal prompt for the interviewee.
+    context += f"\n\n{interviewees[interviewee]['nominal']}:"
 
     # Warning: This can consume a LOT of tokens. This should be limited
     # before going to production.
