@@ -8,6 +8,22 @@ with open("openai-api-key.txt") as f:
     openai.api_key = f.read()
 
 interviewees = {
+    "Socrates": {
+        "title": "Socrates",
+        "nominal": "Socrates",
+    },
+    "Alexander the Great": {
+        "title": "Alexander III of Macedon",
+        "nominal": "Alexander",
+    },
+    "Plato": {
+        "title": "Plato",
+        "nominal": "Plato",
+    },
+    "Aristotle": {
+        "title": "Aristotle",
+        "nominal": "Aristotle",
+    },
     "Galileo Galilei": {
         "title": "Galileo di Vincenzo Bonaiuti de' Galilei",
         "nominal": "Galileo",
@@ -24,13 +40,29 @@ interviewees = {
         "title": "Leonhard Euler",
         "nominal": "Euler",
     },
+    "George Washington": {
+        "title": "George Washington",
+        "nominal": "Washington",
+    },
+    "Napoleon Bonaparte": {
+        "title": "Napoléon Bonaparte",
+        "nominal": "Napoléon",
+    },
     "Carl Gauss": {
         "title": "Johann Carl Friedrich Gauss",
         "nominal": "Gauss",
     },
+    "Abraham Lincoln": {
+        "title": "Abraham Lincoln",
+        "nominal": "Lincoln",
+    },
     "Bernhard Riemann": {
         "title": "Bernhard Riemann",
         "nominal": "Riemann",
+    },
+    "Thomas Edison": {
+        "title": "Thomas Alva Edison",
+        "nominal": "Edison",
     },
     "Nikola Tesla": {
         "title": "Nikola Tesla",
