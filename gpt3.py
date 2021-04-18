@@ -76,6 +76,10 @@ interviewees = {
         "title": "René Descartes",
         "nominal": "Descartes",
     },
+    "Gottfried Leibniz": {
+        "title": "Gottfried Wilhelm Leibniz",
+        "nominal": "Leibniz",
+    },
     "Isaac Newton": {
         "title": "Sir Isaac Newton",
         "nominal": "Newton",
@@ -108,6 +112,10 @@ interviewees = {
         "title": "Napoléon Bonaparte",
         "nominal": "Napoléon",
     },
+    "Ada Lovelace": {
+        "title": "Augusta Ada King, Countess of Lovelace",
+        "nominal": "Ada",
+    },
     "Carl Gauss": {
         "title": "Johann Carl Friedrich Gauss",
         "nominal": "Gauss",
@@ -127,6 +135,10 @@ interviewees = {
     "Bernhard Riemann": {
         "title": "Bernhard Riemann",
         "nominal": "Riemann",
+    },
+    "Charles Babbage": {
+        "title": "Charles Babbage",
+        "nominal": "Babbage",
     },
     "Louis Pasteur": {
         "title": "Louis Pasteur",
@@ -152,9 +164,17 @@ interviewees = {
         "title": "Mahātmā Mohandas Karamchand Gandhi",
         "nominal": "Gandhi",
     },
+    "Alan Turing": {
+        "title": "Alan Mathison Turing",
+        "nominal": "Turing",
+    },
     "Albert Einstein": {
         "title": "Albert Einstein",
         "nominal": "Einstein",
+    },
+    "John von Neumann": {
+        "title": "John von Neumann",
+        "nominal": "von Neumann",
     },
     "Erwin Schrodinger": {
         "title": "Erwin Rudolf Josef Alexander Schrödinger",
