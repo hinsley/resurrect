@@ -8,17 +8,45 @@ with open("openai-api-key.txt") as f:
     openai.api_key = f.read()
 
 interviewees = {
-    "Albert Einstein": {
-        "title": "Albert Einstein",
-        "nominal": "Einstein",
+    "Galileo Galilei": {
+        "title": "Galileo di Vincenzo Bonaiuti de' Galilei",
+        "nominal": "Galileo",
+    },
+    "Rene Descartes": {
+        "title": "René Descartes",
+        "nominal": "Descartes",
+    },
+    "Isaac Newton": {
+        "title": "Sir Isaac Newton",
+        "nominal": "Newton",
+    },
+    "Leonhard Euler": {
+        "title": "Leonhard Euler",
+        "nominal": "Euler",
+    },
+    "Carl Gauss": {
+        "title": "Johann Carl Friedrich Gauss",
+        "nominal": "Gauss",
     },
     "Bernhard Riemann": {
         "title": "Bernhard Riemann",
         "nominal": "Riemann",
     },
-    "Isaac Newton": {
-        "title": "Sir Isaac Newton",
-        "nominal": "Newton",
+    "Nikola Tesla": {
+        "title": "Nikola Tesla",
+        "nominal": "Tesla",
+    },
+    "Albert Einstein": {
+        "title": "Albert Einstein",
+        "nominal": "Einstein",
+    },
+    "Richard Feynman": {
+        "title": "Richard Phillips Feynman",
+        "nominal": "Feynman",
+    },
+    "Stephen Hawking": {
+        "title": "Stephen William Hawking",
+        "nominal": "Hawking",
     },
 }
 
