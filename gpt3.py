@@ -40,6 +40,10 @@ interviewees = {
         "title": "Julius Caesar",
         "nominal": "Julius",
     },
+    "Cleopatra": {
+        "title": "Cleopatra VII Philopator",
+        "nominal": "Cleopatra",
+    },
     "Augustus Caesar": {
         "title": "Augustus Caesar",
         "nominal": "Augustus",
@@ -55,6 +59,10 @@ interviewees = {
     "Marcus Aurelius": {
         "title": "Marcus Aurelius Antoninus",
         "nominal": "Aurelius",
+    },
+    "Muhammad al-Khwarizmi": {
+        "title": "Muhammad ibn Musa al-Khwarizmi",
+        "nominal": "al-Khwarizmi",
     },
     "Leonardo da Vinci": {
         "title": "Leonardo da Vinci",
@@ -95,6 +103,10 @@ interviewees = {
     "Benjamin Franklin": {
         "title": "Benjamin Franklin",
         "nominal": "Franklin",
+    },
+    "Catherine the Great": {
+        "title": "Catherine II the Great",
+        "nominal": "Catherine II",
     },
     "George Washington": {
         "title": "George Washington",
@@ -188,6 +200,10 @@ interviewees = {
         "title": "Richard Phillips Feynman",
         "nominal": "Feynman",
     },
+    "Grace Hopper": {
+        "title": "Grace Brewster Murray Hopper",
+        "nominal": "Hopper",
+    },
     "Linus Pauling": {
         "title": "Linus Carl Pauling",
         "nominal": "Pauling",
@@ -195,6 +211,14 @@ interviewees = {
     "Paul Erdos": {
         "title": "Paul Erdős",
         "nominal": "Erdős",
+    },
+    "Ronald Reagan": {
+        "title": "Ronald Wilson Reagan",
+        "nominal": "Reagan",
+    },
+    "Maryam Mirzakhani": {
+        "title": "Maryam Mirzakhani",
+        "nominal": "Mirzakhani",
     },
     "Stephen Hawking": {
         "title": "Stephen William Hawking",
