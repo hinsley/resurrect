@@ -8,6 +8,10 @@ with open("openai-api-key.txt") as f:
     openai.api_key = f.read().strip()
 
 interviewees = {
+    "Hammurabi": {
+        "title": "Hammurabi, king of Babylon",
+        "nominal": "Hammurabi",
+    },
     "Sun Tzu": {
         "title": "Sun Tzu",
         "nominal": "Tzu",
@@ -35,6 +39,10 @@ interviewees = {
     "Epicurus": {
         "title": "Epicurus",
         "nominal": "Epicurus",
+    },
+    "Zeno of Citium": {
+        "title": "Zeno of Citium",
+        "nominal": "Zeno",
     },
     "Julius Caesar": {
         "title": "Julius Caesar",
@@ -67,6 +75,10 @@ interviewees = {
     "Leonardo da Vinci": {
         "title": "Leonardo da Vinci",
         "nominal": "da Vinci",
+    },
+    "Niccolo Machiavelli": {
+        "title": "Niccolò di Bernardo dei Machiavelli",
+        "nominal": "Machiavelli",
     },
     "Nicolaus Copernicus": {
         "title": "Nicolaus Copernicus",
