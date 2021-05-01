@@ -112,6 +112,10 @@ interviewees = {
         "title": "Johann Sebastian Bach",
         "nominal": "Bach",
     },
+    "David Hume": {
+        "title": "David Hume",
+        "nominal": "Hume",
+    },
     "Leonhard Euler": {
         "title": "Leonhard Euler",
         "nominal": "Euler",
