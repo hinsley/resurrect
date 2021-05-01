@@ -96,6 +96,10 @@ interviewees = {
         "title": "René Descartes",
         "nominal": "Descartes",
     },
+    "John Locke": {
+        "title": "John Locke",
+        "nominal": "Locke",
+    },
     "Gottfried Leibniz": {
         "title": "Gottfried Wilhelm Leibniz",
         "nominal": "Leibniz",
@@ -215,6 +219,10 @@ interviewees = {
     "Grace Hopper": {
         "title": "Grace Brewster Murray Hopper",
         "nominal": "Hopper",
+    },
+    "Isaac Asimov": {
+        "title": "Isaac Asimov",
+        "nominal": "Asimov",
     },
     "Linus Pauling": {
         "title": "Linus Carl Pauling",
