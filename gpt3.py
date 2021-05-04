@@ -44,6 +44,10 @@ interviewees = {
         "title": "Zeno of Citium",
         "nominal": "Zeno",
     },
+    "Ashoka the Great": {
+        "title": "Ashoka the Great",
+        "nominal": "Ashoka",
+    },
     "Julius Caesar": {
         "title": "Julius Caesar",
         "nominal": "Julius",
@@ -72,6 +76,10 @@ interviewees = {
         "title": "Muhammad ibn Musa al-Khwarizmi",
         "nominal": "al-Khwarizmi",
     },
+    "Christopher Columbus": {
+        "title": "Christopher Columbus",
+        "nominal": "Columbus",
+    },
     "Leonardo da Vinci": {
         "title": "Leonardo da Vinci",
         "nominal": "da Vinci",
@@ -83,6 +91,10 @@ interviewees = {
     "Nicolaus Copernicus": {
         "title": "Nicolaus Copernicus",
         "nominal": "Copernicus",
+    },
+    "Pocahontas": {
+        "title": "Pocahontas",
+        "nominal": "Pocahontas",
     },
     "Johannes Kepler": {
         "title": "Johannes Kepler",
@@ -172,6 +184,10 @@ interviewees = {
         "title": "Charles Babbage",
         "nominal": "Babbage",
     },
+    "Cornelius Vanderbilt": {
+        "title": "Cornelius Vanderbilt",
+        "nominal": "Vanderbilt",
+    },
     "Louis Pasteur": {
         "title": "Louis Pasteur",
         "nominal": "Pasteur",
@@ -179,6 +195,14 @@ interviewees = {
     "Friedrich Nietzsche": {
         "title": "Friedrich Wilhelm Nietzsche",
         "nominal": "Nietzsche",
+    },
+    "Andrew Carnegie": {
+        "title": "Andrew Carnegie",
+        "nominal": "Carnegie",
+    },
+    "Srinivasa Ramanujan": {
+        "title": "Srinivasa Ramanujan",
+        "nominal": "Ramanujan",
     },
     "Thomas Edison": {
         "title": "Thomas Alva Edison",
@@ -215,6 +239,10 @@ interviewees = {
     "Robert Oppenheimer": {
         "title": "J. Robert Oppenheimer",
         "nominal": "Oppenheimer",
+    },
+    "Elvis Presley": {
+        "title": "Elvis Aaron Presley",
+        "nominal": "Elvis",
     },
     "Richard Feynman": {
         "title": "Richard Phillips Feynman",
