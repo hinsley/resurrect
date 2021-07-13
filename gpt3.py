@@ -116,6 +116,10 @@ interviewees = {
         "title": "John Locke",
         "nominal": "Locke",
     },
+    "Louis XIV": {
+        "title": "Louis XIV the Great",
+        "nominal": "Louis XIV",
+    },
     "Gottfried Leibniz": {
         "title": "Gottfried Wilhelm Leibniz",
         "nominal": "Leibniz",
