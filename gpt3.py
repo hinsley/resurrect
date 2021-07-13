@@ -40,6 +40,10 @@ interviewees = {
         "title": "Epicurus",
         "nominal": "Epicurus",
     },
+    "Euclid": {
+        "title": "Euclid of Alexandria",
+        "nominal": "Euclid",
+    },
     "Zeno of Citium": {
         "title": "Zeno of Citium",
         "nominal": "Zeno",
